@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{068799c4-750a-442c-a84b-c9ac5f2ab5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Math">
+      <UniqueIdentifier>{dbb12000-4ac0-4dd8-87dc-5d9e527556c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Math\Header Files">
+      <UniqueIdentifier>{10f2247b-0490-4f91-bf3c-ed558d46dba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Data">
+      <UniqueIdentifier>{d7c7440a-9408-4494-8a3d-7ce19e2e99fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Data\Header Files">
+      <UniqueIdentifier>{585edb2f-6dbd-4d95-981f-d3f0dbfbfad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{1fe7341d-2741-456f-b561-97fcb22952d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Header Files">
+      <UniqueIdentifier>{b7a4b5a6-6eca-47d2-9312-e715311dfa95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Math\Source Files">
+      <UniqueIdentifier>{b1f17f1c-4430-4063-a997-14c62878854a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Data\Source Files">
+      <UniqueIdentifier>{f86f30cc-6fcf-4097-aa70-acb396972fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Source Files">
+      <UniqueIdentifier>{0908c14b-284e-4baa-863e-e9a45ca86900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Containers">
+      <UniqueIdentifier>{e0aa7f11-bb79-4aa9-9500-3f46c4d6ce12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Containers\Header Files">
+      <UniqueIdentifier>{bbd82901-0be8-43c7-8b7a-eab3c44509e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Containers\Source Files">
+      <UniqueIdentifier>{c149b761-4170-4329-9eaf-20e28d986883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Objects">
+      <UniqueIdentifier>{4401653b-dd52-46c9-b909-e45af907356c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lane.cpp">
+      <Filter>Private\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_LogUtility.cpp">
+      <Filter>API\Data\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_MathUtility.cpp">
+      <Filter>API\Math\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_Matrix.cpp">
+      <Filter>API\Math\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_Quaternion.cpp">
+      <Filter>API\Math\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WidowLyte.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_Allocator.cpp">
+      <Filter>API\Containers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_String.cpp">
+      <Filter>API\Containers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_StringFunctions.cpp">
+      <Filter>API\Containers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LyteGlobals.cpp">
+      <Filter>Private\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_Vector4.cpp">
+      <Filter>API\Math\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_Vector2.cpp">
+      <Filter>API\Math\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WI_UserInputUtility.cpp">
+      <Filter>API\Data\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WI_Quaternion.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Scalar.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Matrix.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_MathUtility.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_MathDef.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_MarkupOut.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_LogUtility.h">
+      <Filter>API\Data\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WidowLyte.h" />
+    <ClInclude Include="Lane.h">
+      <Filter>Private\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Config.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_StringFunctions.h">
+      <Filter>API\Containers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_String.h">
+      <Filter>API\Containers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Array.h">
+      <Filter>API\Containers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Allocator.h">
+      <Filter>API\Containers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Lexer.h">
+      <Filter>API\Containers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LyteGlobals.h">
+      <Filter>Private\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Vector4.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_Vector2.h">
+      <Filter>API\Math\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WI_UserInputUtility.h">
+      <Filter>API\Data\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
